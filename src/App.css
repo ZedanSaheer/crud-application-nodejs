@@ -1,5 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+  width: 100%;
 }
 .form{
   display: flex;
@@ -19,4 +26,10 @@
 .form button{
   margin-top: 1rem;
   padding: 1rem 2rem;
+}
+
+@media (max-width:550px) {
+  .form input{
+    width: 100%;
+  }
 }
