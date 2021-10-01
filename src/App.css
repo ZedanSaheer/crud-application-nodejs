@@ -19,6 +19,7 @@
   width: 400px;
   height: 50px;
   outline: none;
+  padding-left: 1rem;
 }
 .form label{
   margin-top: 1rem;
@@ -26,6 +27,39 @@
 .form button{
   margin-top: 1rem;
   padding: 1rem 2rem;
+}
+.reviews{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.movieRow{
+  text-align: center;
+  background-color: lightgray;
+  padding: 1rem;
+  margin: 2rem 1rem;
+  border-radius: 5px;
+}
+.movieRow h2{
+  text-transform: uppercase;
+}
+.movieRow_actions{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.movieRow_actions .btn{
+  width: 100px;
+  margin: 0.5rem 0;
+  height: 30px;
+}
+.movieRow_actions .input{
+  height: 50px;
+  outline: none;
+  padding-left: 1rem;
 }
 
 @media (max-width:550px) {
